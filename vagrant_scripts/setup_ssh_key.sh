@@ -1,9 +1,7 @@
 #!/usr/bin/env bash
 
-export DEBIAN_FRONTEND=noninteractive
-
 # go to the vagrant directory
-cd /vagrant
+pushd /vagrant
 
 # Generate a 4096 bit RSA key with a blank passphrase in the directory
 ssh-keygen \

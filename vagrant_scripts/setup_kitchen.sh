@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-export DEBIAN_FRONTEND=noninteractive
-
 # setup kitchen
-cd /vagrant
+pushd /vagrant
 bundle install

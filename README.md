@@ -47,7 +47,7 @@ export AWS_SESSION_TOKEN=
 ```
 export AWS_DEFAULT_REGION=us-east-1
 ```
-8. create the terraform workspace with kitchen voor CentOS
+8. create the terraform workspace with kitchen for CentOS
 ```
 bundle exec kitchen create centos
 ```
